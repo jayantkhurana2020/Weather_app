@@ -50,7 +50,7 @@ function App() {
                 onKeyDown={enterKeyPressed}
                 type="text"
                 name="city"
-                placeholder="Enter City..."
+                placeholder="Enter City And Press Enter."
               />
               <button onClick={(e) => handleUnitsClick(e)}>°F</button>
             </div>
